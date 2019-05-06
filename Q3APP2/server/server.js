@@ -12,7 +12,10 @@ app.use(passport.initialize())
 require('./config/passport')(passport)
 
 app.use(express.json())
-app.use('/users', require('./routes/users'))
+app.use('/api/responses', require('./routes/response'))
+app.use('/api/questions', require('./routes/questions'))
+app.use('/api/users', require('./routes/users'))
+app.use('/api/profile', require('./routes/profile'))
 app.listen(port, () => console.log(`server running on ${port}`))
 
 

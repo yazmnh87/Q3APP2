@@ -26,6 +26,16 @@ const UserSchema = new Schema( {
     date: {
         type: Date,
         default: Date.now
+    },
+    permission: {
+        type: String,
+        require: true,
+        default: 'user'
+    },
+    isActive: {
+        type: String,
+        require: true,
+        default: true
     }
 })
 

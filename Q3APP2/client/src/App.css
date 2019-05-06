@@ -1,0 +1,177 @@
+.login{
+  background-color: #F5F6F3;
+  height: 100vh;
+  /* display: flex; */
+}
+
+.register{
+  background-color: #F5F6F3;
+  height: 100%;
+}
+
+.banner{
+  background-color: black;
+  height: 100px;
+  width: 50%;
+  display: flex;
+  
+}
+
+/* img{
+  max-width: 100%;
+  height: auto;
+} */
+
+.lgcontainer{
+  background-color: #A4C24B;
+  height: 300px;
+  width: 25%;
+  margin-top: 100px;
+  justify-content: center;
+}
+.rgcontainer{
+  background-color: #A4C24B;
+  height: 450px;
+  width: 50%;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.lgbutton{
+  background-color: #F5F6F3
+}
+
+.navbar{
+  background-color: #A4C24B;
+
+}
+
+.navcontainer{
+  height: 140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 100px;
+}
+
+.img2{
+  max-width: 500px;
+  height: auto;
+}
+
+.navlinkcont{
+  margin-bottom: -40px;
+}
+
+#navbarNav{
+  margin-right: 100px;
+}
+
+.icon{
+  height: 20px;
+}
+
+.Lanbackground{
+  background-color: #F5F6F3;
+}
+
+
+.survcontainer{
+  height: 500px;
+}
+
+.inputrgsz{
+  width: 25%;
+}
+
+input[type=range].rgcolor {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 3.4px 0;
+}
+input[type=range].rgcolor:focus {
+  outline: none;
+}
+input[type=range].rgcolor::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 9.2px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #0fee7c;
+  border-radius: 25px;
+  border: 0px solid #010101;
+}
+input[type=range].rgcolor::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 0.7px solid #000000;
+  height: 16px;
+  width: 15px;
+  border-radius: 9px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -3.4px;
+}
+input[type=range].rgcolor:focus::-webkit-slider-runnable-track {
+  background: #25f189;
+}
+input[type=range].rgcolor::-moz-range-track {
+  width: 100%;
+  height: 9.2px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #0fee7c;
+  border-radius: 25px;
+  border: 0px solid #010101;
+}
+input[type=range].rgcolor::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 0.7px solid #000000;
+  height: 16px;
+  width: 15px;
+  border-radius: 9px;
+  background: #ffffff;
+  cursor: pointer;
+}
+input[type=range].rgcolor::-ms-track {
+  width: 100%;
+  height: 9.2px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range].rgcolor::-ms-fill-lower {
+  background: #0dd670;
+  border: 0px solid #010101;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range].rgcolor::-ms-fill-upper {
+  background: #0fee7c;
+  border: 0px solid #010101;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+input[type=range].rgcolor::-ms-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 0.7px solid #000000;
+  height: 16px;
+  width: 15px;
+  border-radius: 9px;
+  background: #ffffff;
+  cursor: pointer;
+  height: 9.2px;
+}
+input[type=range].rgcolor:focus::-ms-fill-lower {
+  background: #0fee7c;
+}
+input[type=range].rgcolor:focus::-ms-fill-upper {
+  background: #25f189;
+}
+
+.graphContainer{
+  width: 800px;
+  height: 400px;
+}

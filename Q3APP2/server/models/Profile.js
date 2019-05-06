@@ -7,14 +7,26 @@ const ProfileSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: 'users'
     },
+     phone: {
+        type: Number,
+        required: true
+
+     },  
     school: {
-        name: String
+        name: String,
+        location: String
     },
     careerinterests: {
         type: [String]
     },
     hobbies: {
         type: [String]
+    },
+    team: {
+        type: String
+    },
+    mentor: {
+        type: String
     }
 })
 
